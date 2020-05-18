@@ -1,16 +1,12 @@
-# bloc_practice
+# Unsplash image searcher
 
-A new Flutter project.
+This is a simple image search app that makes use of the Unsplash API. They have a large open image database that consists of user submitted entries. When you find the image you want, you can use the download button to store it on your device.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Make sure to get an api key on https://unsplash.com/developers and replace it with the placeholder in the api_keys.dart file
+use `flutter pub get` to download the packages.
 
-A few resources to get you started if this is your first Flutter project:
+## Usage 
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+use `flutter run` to run on a simulator or device. To make sure the download of the image works correctly, please use a physical device
