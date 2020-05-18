@@ -34,10 +34,7 @@ class ImageCard extends StatelessWidget {
                       color: Colors.black,
                     ),
                     onPressed: () async {
-                      print(unsplashImage.imageUrl);
-
                       final result = await Permission.storage.request();
-                      print(result);
                       if (result.isGranted) {
                         final response = await http.get(unsplashImage.imageUrl);
                         await ImageGallerySaver.saveImage(
